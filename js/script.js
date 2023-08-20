@@ -19,4 +19,10 @@ pincel.lineTo(200, 400);
 pincel.lineTo(400, 400);
 pincel.fill();
 
+//desenha um círculo
+pincel.fillStyle = 'blue'; 
+pincel.beginPath(); 
+pincel.arc(300, 200, 50, 0, 2 * 3.14); 
+pincel.fill();
+
 
