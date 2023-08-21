@@ -1,4 +1,3 @@
-const mensagem = document.getElementById('msg');
 const tela = document.querySelector('canvas');
 const pincel = tela.getContext('2d');
 
