@@ -1,3 +1,4 @@
+const paleta = document.querySelector('#color');
 const tela = document.querySelector('canvas');
 const pincel = tela.getContext('2d');
 
@@ -14,7 +15,7 @@ function desenhaCirculo(evento) {
 
         console.log(` X:${x} e Y:${y}`);
 
-        pincel.fillStyle = 'blue';
+        pincel.fillStyle = paleta.value;
         pincel.beginPath();
         pincel.arc(x, y, 10, 0, 2 * 3.14);
         pincel.fill();
