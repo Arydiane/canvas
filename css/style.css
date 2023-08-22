@@ -2,7 +2,33 @@ body {
     text-align: center;
 }
 
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
 canvas {
     border: 1px solid lightgray;
     background-color: rgb(235, 232, 232);
+}
+
+.lista-exercicios {
+    list-style-position: inside;
+    text-align: left;
+}
+
+.lista-exercicios li {
+    padding: 0.2rem;
+}
+
+.link-voltar {
+    display: block;
+    font-weight: bold;
+    padding-top: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.link-voltar:hover {
+    text-decoration: underline;
 }
